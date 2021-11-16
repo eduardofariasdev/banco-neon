@@ -117,6 +117,9 @@
 }
 
 @media (max-width: 600px) {
+  .s-card-featured .main-area .title p {
+    text-align: center;
+  }
   /* ===== Second Area ===== */
 
   .s-card-featured .second-area .top {
