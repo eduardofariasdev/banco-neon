@@ -1541,7 +1541,7 @@ footer .msg p {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 365px) {
   .s-conta-digital .images {
     max-width: 35rem;
     height: 46rem;
