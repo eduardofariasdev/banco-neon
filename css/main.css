@@ -673,6 +673,7 @@ footer .msg p {
   left: 0;
   z-index: 2;
   max-width: 43.5rem;
+  animation: floating 6s infinite;
 }
 
 .s-hero .hero-image .image .card-back {
@@ -680,6 +681,7 @@ footer .msg p {
   bottom: 4.6rem;
   z-index: 1;
   max-width: 35.2rem;
+  animation: floating 8s infinite;
 }
 
 .s-hero .hero-image .image .circle {
@@ -1573,5 +1575,17 @@ footer .msg p {
     /* left: initial;
           right: 0;
           top: 0; */
+  }
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0);
+  }
+  66% {
+    transform: translateY(-1.5rem);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
